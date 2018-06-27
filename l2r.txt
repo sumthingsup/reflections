@@ -22,3 +22,7 @@ What is the result of merging two branches together? Why do we represent it in t
 
 	All the chages from both branches were kept.
 	So that we can keep track of which parent is which and where changes were introduced, that way when we have a merged branch we can easily commit changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Manual merging can take a lot of time. The automatic merging takes care of the simple ones and also lets the person know of the conflict. It may be simple to resolve but Git doesn't know that.
