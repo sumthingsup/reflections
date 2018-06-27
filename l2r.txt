@@ -18,3 +18,7 @@ How do the diagrams help you visualize the branch structure?
 
 	They help in locating which commit a certain branch is working on so that code differences can be applied/discarded as needed.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	All the chages from both branches were kept.
+	So that we can keep track of which parent is which and where changes were introduced, that way when we have a merged branch we can easily commit changes.
